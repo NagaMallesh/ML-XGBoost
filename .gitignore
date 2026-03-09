@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+data/*.csv
+data/*.json
+*.csv
+*.json
+
+# Kaggle
+.kaggle/
+kaggle.json
+
+# Models
+models/*.pkl
+models/*.json
+models/*.joblib
+*.pkl
+*.joblib
+
+# Artifacts
+output/
+*.png
+*.jpg
+
+# Exception: Keep example visualizations in docs
+!docs/images/*.png
+!docs/images/*.jpg
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+~$*
