@@ -338,6 +338,10 @@ ml-xgboost/
 - Architecture: modular pipeline (`src/models`, `src/utils`)
 - Design details: see `DESIGN.md`
 
+## Governance
+
+- Responsible AI framework and guardrails: [docs/GOVERNANCE.md](docs/GOVERNANCE.md)
+
 ---
 
 ## Future Enhancements
